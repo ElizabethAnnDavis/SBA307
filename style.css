@@ -1,0 +1,177 @@
+body{
+    background-color: white;
+    font-family:'Franklin Gothic Medium';
+    text-align: center;
+    color: #50342b;
+}
+.header{
+    border:solid pink;
+    height:256px;
+}
+.hTitle{
+    /*border:solid green;*/
+    height:80%;
+    display:flex;
+    background-color:#ffeeed;
+}
+.hLogo{
+    /*border:solid orange;*/
+    width:30%;
+    height:85%;
+    margin-left:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+#hdrLg{
+    width:100%;
+    height:auto;
+}
+.hImg{
+    /*border:solid orchid;*/
+    width:15%;
+    margin-right:auto;
+    margin-top:auto;
+}
+#hdrImg{
+    width:100%;
+    height:auto;
+}
+.nav{
+    border:solid black;
+    height:20%;
+    display:flex;
+    justify-content: space-between;
+    width:80vw;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.navtab{
+    color:#50342b;
+    font-weight:bolder;
+    margin-top:0.5em;
+}
+.navtab:hover{
+    color:#ffeeed;
+}
+/*
+#navHome:link{
+    text-decoration:none;
+}
+*/
+.mnCont{
+    border:solid blue;
+    height:auto;
+}
+.imgSldshw{
+    border:solid purple;
+    height:auto;
+    width:80vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+#ss-img-1{
+    width:100%;
+    height:auto;
+}
+/*.slides{
+    border:solid yellow;
+    width:80vw;
+    height:512px;
+    margin-left:auto;
+    margin-right:auto;
+}*/
+button{
+    margin:1em;
+    padding:1em;
+    border:solid #ffeeed;
+    background-color:white;
+}
+button:hover{
+    background-color:#ffeeed;
+}
+.cmcSect{
+    border:solid black;
+}
+.art{
+    width:80vw;
+    height:auto;
+    display:flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-type3{
+    /*flex-grow:1;*/
+    width:32%;
+}
+#art-img-1, #art-img-2, #art-img-3{
+    width:100%;
+    height:auto;
+}
+/*#art-img-2, #art-img-3{
+    width:100%;
+    height:auto;
+}
+#art-img-3{
+    width:100%;
+    height:auto;
+}*/
+.news{
+    border:solid green;
+    height:auto;
+    width:80vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+.nwsRw{
+    background-color:rgb(245, 242, 245);
+    height:auto;
+    display:flex;
+    padding:1em;
+    margin-bottom:1em;
+}
+/*#nwsRw1, #nwsRw2{
+    margin-bottom:1em;
+}*/
+.img-type4{
+    border:solid yellow;
+    width:25%;
+}
+.nws{
+    padding-left:1em;
+    text-align:left;
+}
+#nws-img-1, #nws-img-2, #nws-img-3{
+    width:100%;
+    height:auto;
+}
+/*#nws-img-2, #nws-img-3{
+    width:100%;
+    height:auto;
+}
+#nws-img-3{
+    width:100%;
+    height:auto;
+}*/
+.qzzs{
+    border:solid green;
+    display:flex;
+    justify-content: space-between;
+    width:80vw;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.qz{
+    border:solid blue;
+    width:32%;
+}
+.img-type5{
+    /*flex-grow:1;*/
+    width:100%;
+}
+#qz-img-1, #qz-img-2, #qz-img-3{
+    width:100%;
+    height:auto;
+}
