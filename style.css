@@ -69,11 +69,11 @@ body{
 button{
     margin:1em;
     padding:1em;
-    border:solid #ffeeed;
+    border:solid #f1ccd1;
     background-color:white;
 }
 button:hover{
-    background-color:#ffeeed;
+    background-color:#f1ccd1;
 }
 
 
@@ -182,24 +182,46 @@ button:hover{
     height:auto;
 }
 .pfCont{
-    border:solid red;
     width:80vw;
     height:auto;
     margin-left: auto;
     margin-right: auto;
 }
+.profile{
+    display:flex;
+}
+.pfPic{
+    margin-bottom: 8em;
+}
 .pfBio{
-    border:solid blue;
     background-color:#ebfbf5;
-    margin:2em 0;
-    padding:3em 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding:8em 2em;
     text-align: left;
+    height:fit-content;
 }
 .bioPar{
     padding-top: 2em;
+    text-align: center;
 }
 .tblTtl{
     width:100px;
+}
+.incompletePage{
+    width:80vw;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.incmpltImg{
+    width:55vw;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#inImg{
+    width:100%;
 }
 /*
 .tblLtr1{
@@ -211,7 +233,6 @@ button:hover{
 /*                         Footer Styling                        */
 /*---------------------------------------------------------------*/
 .ftr{
-    border:solid black;
     background-color: #ffeeed;
     height:100px;
     width:auto;
@@ -219,7 +240,6 @@ button:hover{
     bottom:0;
 }
 .footer{
-    border:solid blue;
     width:80vw;
     display:flex;
     justify-content: space-between;
@@ -227,12 +247,20 @@ button:hover{
     margin-right: auto;
 }
 .ftrItems{
-    border:solid pink;
     display:flex;
     justify-content: space-between;
 }
+/*
+.ftrBtnImg{
+    border:solid green;
+    width:90px;
+    height:70px;
+}
+#fBI{
+    width:100%;
+}
+*/
 .footerItems{
-    border:solid yellow;
     display: flex;
     justify-content:space-between;
     list-style: none;

@@ -1,3 +1,7 @@
+/*---------------------------------------------------------------*/
+/*      used you form pages, currently fun.html, news.html       */
+/*---------------------------------------------------------------*/
+
 body{
     background-color:#ffeeed;
     font-family:'Franklin Gothic Medium';
@@ -59,8 +63,8 @@ button{
     margin:1em;
     text-align: center;
     padding:1em;
-    border:solid #ffeeed;
-    background-color:#ffeeed;
+    border:solid #f1ccd1;
+    background-color:#f1ccd1;
 }
 button:hover{
     background-color:white;
