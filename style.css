@@ -4,6 +4,10 @@ body{
     text-align: center;
     color: #50342b;
 }
+
+/*---------------------------------------------------------------*/
+/*                         Header Styling                        */
+/*---------------------------------------------------------------*/
 .header{
     height:256px;
 }
@@ -57,6 +61,25 @@ body{
 .navlnk{
     text-decoration:none;
 }
+
+
+/*---------------------------------------------------------------*/
+/*                        Button Styling                         */
+/*---------------------------------------------------------------*/
+button{
+    margin:1em;
+    padding:1em;
+    border:solid #ffeeed;
+    background-color:white;
+}
+button:hover{
+    background-color:#ffeeed;
+}
+
+
+/*---------------------------------------------------------------*/
+/*                      Main Body Styling                        */
+/*---------------------------------------------------------------*/
 .mnCont{
     height:auto;
 }
@@ -77,15 +100,6 @@ body{
     margin-left:auto;
     margin-right:auto;
 }*/
-button{
-    margin:1em;
-    padding:1em;
-    border:solid #ffeeed;
-    background-color:white;
-}
-button:hover{
-    background-color:#ffeeed;
-}
 /*.cmcSect{
     border:solid black;
 }*/
@@ -167,6 +181,35 @@ button:hover{
     width:100%;
     height:auto;
 }
+.pfCont{
+    border:solid red;
+    width:80vw;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pfBio{
+    border:solid blue;
+    background-color:#ebfbf5;
+    margin:2em 0;
+    padding:3em 2em;
+    text-align: left;
+}
+.bioPar{
+    padding-top: 2em;
+}
+.tblTtl{
+    width:100px;
+}
+/*
+.tblLtr1{
+    font-weight: lighter;
+}*/
+
+
+/*---------------------------------------------------------------*/
+/*                         Footer Styling                        */
+/*---------------------------------------------------------------*/
 .ftr{
     border:solid black;
     background-color: #ffeeed;
