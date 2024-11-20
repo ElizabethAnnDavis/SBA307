@@ -1,0 +1,67 @@
+body{
+    background-color:#ffeeed;
+    font-family:'Franklin Gothic Medium';
+    color: #50342b;
+}
+h2{
+    text-align:center;
+}
+input[type=text]{
+    width: 98%;
+    height:50px;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+input{
+    margin-top:15px;
+}
+input[type=submit]{
+    margin:0 auto;
+}
+.frmCont{
+    border:solid black;
+    background-color:white;
+    /*width:65vw;*/
+    width:555px;
+    /*height:auto;*/
+    margin-top:3em;
+    /*margin-bottom:3em;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+.frmLogo{
+    width:75%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3em;
+}
+#frmLogo{
+    width:100%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+.frmTxt{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:3em;
+}
+.frms{
+    border-color: blue;
+}
+.btn{
+    display:flex;
+    justify-content:center;
+}
+button{
+    margin:1em;
+    text-align: center;
+    padding:1em;
+    border:solid #ffeeed;
+    background-color:#ffeeed;
+}
+button:hover{
+    background-color:white;
+}

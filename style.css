@@ -5,17 +5,14 @@ body{
     color: #50342b;
 }
 .header{
-    border:solid pink;
     height:256px;
 }
 .hTitle{
-    /*border:solid green;*/
     height:80%;
     display:flex;
     background-color:#ffeeed;
 }
 .hLogo{
-    /*border:solid orange;*/
     width:30%;
     height:85%;
     margin-left:auto;
@@ -26,8 +23,13 @@ body{
     width:100%;
     height:auto;
 }
+#frmLogo{
+    width:100%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
 .hImg{
-    /*border:solid orchid;*/
     width:15%;
     margin-right:auto;
     margin-top:auto;
@@ -37,14 +39,12 @@ body{
     height:auto;
 }
 .nav{
-    border:solid black;
     height:20%;
     display:flex;
     justify-content: space-between;
     width:80vw;
     margin-left:auto;
-    margin-right:auto;
-    
+    margin-right:auto;   
 }
 .navtab{
     color:#50342b;
@@ -54,17 +54,13 @@ body{
 .navtab:hover{
     color:#ffeeed;
 }
-/*
-#navHome:link{
+.navlnk{
     text-decoration:none;
 }
-*/
 .mnCont{
-    border:solid blue;
     height:auto;
 }
 .imgSldshw{
-    border:solid purple;
     height:auto;
     width:80vw;
     margin-left:auto;
@@ -90,9 +86,9 @@ button{
 button:hover{
     background-color:#ffeeed;
 }
-.cmcSect{
+/*.cmcSect{
     border:solid black;
-}
+}*/
 .art{
     width:80vw;
     height:auto;
@@ -118,7 +114,6 @@ button:hover{
     height:auto;
 }*/
 .news{
-    border:solid green;
     height:auto;
     width:80vw;
     margin-left:auto;
@@ -135,7 +130,6 @@ button:hover{
     margin-bottom:1em;
 }*/
 .img-type4{
-    border:solid yellow;
     width:25%;
 }
 .nws{
@@ -155,7 +149,6 @@ button:hover{
     height:auto;
 }*/
 .qzzs{
-    border:solid green;
     display:flex;
     justify-content: space-between;
     width:80vw;
@@ -164,7 +157,6 @@ button:hover{
     margin-right: auto;
 }
 .qz{
-    border:solid blue;
     width:32%;
 }
 .img-type5{
@@ -174,4 +166,37 @@ button:hover{
 #qz-img-1, #qz-img-2, #qz-img-3{
     width:100%;
     height:auto;
+}
+.ftr{
+    border:solid black;
+    background-color: #ffeeed;
+    height:100px;
+    width:auto;
+    position: sticky;
+    bottom:0;
+}
+.footer{
+    border:solid blue;
+    width:80vw;
+    display:flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ftrItems{
+    border:solid pink;
+    display:flex;
+    justify-content: space-between;
+}
+.footerItems{
+    border:solid yellow;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.ftrIcons{
+    margin-top: auto;
+    margin-bottom: auto;
 }
