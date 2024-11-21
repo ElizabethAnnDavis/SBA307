@@ -270,13 +270,12 @@ button:hover{
     display: flex;
     justify-content:space-between;
     list-style: none;
-    margin-top: auto;
+    margin-top: 30px;
     margin-bottom: auto;
 }
 .footerIcons{
     display:flex;
     justify-content:space-between;
-    list-style: none;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -299,13 +298,13 @@ button:hover{
 /*              Footer Button Image Overlay Styling              */
 /*---------------------------------------------------------------*/
 .container {
-    border:solid black;
+    border:solid #ffeeed;
     /*width: 335px;
     height: 127px;*/
     width: 270px;
-    height: 62px;
+    height: 0;
     position: relative;
-    margin: 30px;
+    margin-top: 0;
   }
   .box {
     width: 270px;

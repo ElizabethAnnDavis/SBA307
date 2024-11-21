@@ -10,6 +10,11 @@ body{
 h2{
     text-align:center;
 }
+
+
+/*---------------------------------------------------------------*/
+/*                          Form Styling                         */
+/*---------------------------------------------------------------*/
 input[type=text]{
     width: 98%;
     height:50px;
@@ -55,6 +60,11 @@ input[type=submit]{
 .frms{
     border-color: blue;
 }
+
+
+/*---------------------------------------------------------------*/
+/*                         Button Styling                        */
+/*---------------------------------------------------------------*/
 .btn{
     display:flex;
     justify-content:center;
@@ -69,6 +79,11 @@ button{
 button:hover{
     background-color:white;
 }
+
+
+/*---------------------------------------------------------------*/
+/*                        DropDown Styling                       */
+/*---------------------------------------------------------------*/
 .dropdown{
     display:flex;
     justify-content:center;
