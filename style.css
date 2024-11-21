@@ -272,6 +272,8 @@ button:hover{
     list-style: none;
     margin-top: 30px;
     margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footerIcons{
     display:flex;
@@ -283,7 +285,7 @@ button:hover{
     display:flex;
     justify-content:space-between;
     list-style: none;
-    margin-top: auto;
+    margin-top: 2.5%;
     margin-bottom: auto;
 }
 .f-i{
@@ -299,8 +301,6 @@ button:hover{
 /*---------------------------------------------------------------*/
 .container {
     border:solid #ffeeed;
-    /*width: 335px;
-    height: 127px;*/
     width: 270px;
     height: 0;
     position: relative;
@@ -313,18 +313,16 @@ button:hover{
     top: 0;
     left: 0;
     opacity: 0.8;
-    /*background: #0057e3;*/
   }
-  /*.overlay{*/
   #overlayBox{
     width: 90px;
     height: 70px;
-    z-index: 9;
-    /*margin-left:15%;
-    margin-bottom:10px;*/
     margin:-30px;
     margin-left:0;
-    /*background: #009938;*/
+    z-index: 1;
+    position: absolute;
+    bottom: -3px;
+    left: 14px;
   }
   #fBtn{
     width: 270px;
